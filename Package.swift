@@ -15,8 +15,8 @@ let package = Package(
             targets: ["UIKitExtensions"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/JWIMaster/UIKitCompatKit", branch: "master"),
-        .package(url: "https://github.com/JWIMaster/FoundationCompatKit.git", branch: "master"),
+        .package(url: "https://github.com/j-w-i/UIKitCompatKit", branch: "master"),
+        .package(url: "https://github.com/j-w-i/FoundationCompatKit.git", branch: "master"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
